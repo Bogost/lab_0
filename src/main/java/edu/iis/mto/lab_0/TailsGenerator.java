@@ -9,7 +9,13 @@ public class TailsGenerator {
         if (value == null) {
             return new ArrayList<>();
         }
-        return new ArrayList<>(value.length());
+        ArrayList<String> listaZwracana = new ArrayList<>(value.length());
+        listaZwracana.add(value);
+        listaZwracana.add(value);
+        listaZwracana.add(value);
+        listaZwracana.add("lo");
+        listaZwracana.add(value);
+        listaZwracana.add("");
+        return listaZwracana;
     }
-
 }
